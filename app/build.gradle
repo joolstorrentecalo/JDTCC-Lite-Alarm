@@ -13,11 +13,11 @@ android {
     compileSdkVersion 33
 
     defaultConfig {
-        applicationId "com.simplemobiletools.clock"
-        minSdkVersion 23
+        applicationId "com.jtcstudios.clock"
+        minSdkVersion 29
         targetSdkVersion 33
-        versionCode 34
-        versionName "5.9.4"
+        versionCode 1
+        versionName "1.0.0"
         setProperty("archivesBaseName", "clock")
         vectorDrawables.useSupportLibrary = true
     }

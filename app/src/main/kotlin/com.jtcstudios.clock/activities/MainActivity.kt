@@ -84,8 +84,6 @@ class MainActivity : SimpleActivity() {
         main_toolbar.setOnMenuItemClickListener { menuItem ->
             when (menuItem.itemId) {
                 R.id.sort -> getViewPagerAdapter()?.showAlarmSortDialog()
-                R.id.settings -> launchSettings()
-                R.id.about -> launchAbout()
                 else -> return@setOnMenuItemClickListener false
             }
             return@setOnMenuItemClickListener true
@@ -199,25 +197,5 @@ class MainActivity : SimpleActivity() {
 
     private fun getInactiveTabIndexes(activeIndex: Int) = arrayListOf(0, 1, 2, 3).filter { it != activeIndex }
 
-    private fun launchSettings() {
-        startActivity(Intent(applicationContext, SettingsActivity::class.java))
-    }
 
-    private fun launchAbout() {
-        val licenses = LICENSE_STETHO or LICENSE_NUMBER_PICKER or LICENSE_RTL or LICENSE_AUTOFITTEXTVIEW
-
-        val faqItems = arrayListOf(
-            FAQItem(R.string.faq_1_title, R.string.faq_1_text),
-            FAQItem(R.string.faq_1_title_commons, R.string.faq_1_text_commons),
-            FAQItem(R.string.faq_4_title_commons, R.string.faq_4_text_commons),
-            FAQItem(R.string.faq_9_title_commons, R.string.faq_9_text_commons)
-        )
-
-        if (!resources.getBoolean(R.bool.hide_google_relations)) {
-            faqItems.add(FAQItem(R.string.faq_2_title_commons, R.string.faq_2_text_commons))
-            faqItems.add(FAQItem(R.string.faq_6_title_commons, R.string.faq_6_text_commons))
-        }
-
-        startAboutActivity(R.string.app_name, licenses, BuildConfig.VERSION_NAME, faqItems, true)
-    }
 }
