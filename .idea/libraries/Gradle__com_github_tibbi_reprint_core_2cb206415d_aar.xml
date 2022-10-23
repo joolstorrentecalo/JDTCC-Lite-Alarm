@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.tibbi.reprint:core:2cb206415d@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2733290d1d2b6103fb42ad71e2aa2ada/transformed/jetified-core-2cb206415d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2733290d1d2b6103fb42ad71e2aa2ada/transformed/jetified-core-2cb206415d/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2733290d1d2b6103fb42ad71e2aa2ada/transformed/jetified-core-2cb206415d/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tibbi.reprint/core/2cb206415d/a1555acc6edaf30b3ee14bdf11813c6a22c8805f/core-2cb206415d-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
