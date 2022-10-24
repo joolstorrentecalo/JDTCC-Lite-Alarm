@@ -79,7 +79,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\jools\Downloads\Projects\Pictures\Dark mode\ic_clock\1024.png" />
+                                                <entry key="imagePath" value="C:\Users\jools\Downloads\Projects\Pictures\JT series\Light mode\ic_clock\play_store_512.png" />
                                                 <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
@@ -113,7 +113,7 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="000000" />
+                                      <entry key="backgroundColor" value="ffffff" />
                                     </map>
                                   </option>
                                 </PersistentState>
