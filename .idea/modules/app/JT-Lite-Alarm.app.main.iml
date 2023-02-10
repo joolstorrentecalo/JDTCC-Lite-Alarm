@@ -165,6 +165,7 @@
     <content url="file://$MODULE_DIR$/../../../app/build/generated/aidl_source_output_dir/coreDebug/out" />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/coreDebug/out">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/coreDebug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/coreDebug/out" isTestSource="false" generated="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/renderscript_source_output_dir/coreDebug/out" />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/res/resValues/core/debug">
@@ -178,6 +179,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/coreDebug" isTestSource="false" generated="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/coreDebug">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/coreDebug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/coreDebug" isTestSource="false" generated="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/src/core">
